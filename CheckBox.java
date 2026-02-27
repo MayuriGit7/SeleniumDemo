@@ -11,7 +11,7 @@ public class CheckBox {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		 
-		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+	//Test Git	driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.xpath("//input[@id='checkBoxOption1'")).click();
 		Assert.assertTrue(driver.findElement(By.xpath("//input[@id='checkBoxOption1'")).isSelected());
 		driver.findElement(By.xpath("//input[@id='checkBoxOption1'")).click();
