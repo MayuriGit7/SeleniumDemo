@@ -6,7 +6,8 @@ public class SeleniumIntroduction {
 	public static void main(String[] args) {
 		
 			System.out.println("Test");
-			System.setProperty("webdriver.chrome.driver","/Users/Admin/Desktop/ChromeDriver/chromedriver.exe" ) ; 
+	//Git pull
+//git push		System.setProperty("webdriver.chrome.driver","/Users/Admin/Desktop/ChromeDriver/chromedriver.exe" ) ; 
 		  WebDriver driver = new ChromeDriver();
 		  
 		  driver.get("https://rahulshettyacademy.com/");
