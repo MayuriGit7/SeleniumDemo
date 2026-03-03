@@ -12,7 +12,7 @@ public class Locators1 {
 		Locators1 loc = new Locators1();
 		//Test Branch
 //Test Branch Devlop
-		System.setProperty("webdriver.chrome.driver","/Users/Admin/Desktop/ChromeDriver/chromedriver.exe");
+	//Test branch11	System.setProperty("webdriver.chrome.driver","/Users/Admin/Desktop/ChromeDriver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
